@@ -5,42 +5,79 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Matthew McGlothlin</title>
 <meta name="description" content="Portfolio of Matt McGlothlin — product and UX designer. Design is everything; great design is invisible.">
+<link rel="preload" href="fonts/archivo-black-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body id="top">
 <header class="site-header">
   <a class="brand" href="./">Matt&nbsp;McGlothlin</a>
-  <nav class="site-nav"><a href="./" class="active">Work</a><a href="digital-leadership-design-process/">Digital Leadership</a><a href="about-1/">About</a></nav>
+  <div class="header-right">
+    <nav class="site-nav"><a href="./" class="active">Work</a><a href="digital-leadership-design-process/">Digital Leadership</a><a href="about-1/">About</a></nav>
+    <a class="talk-btn" href="mailto:mattmcg@bitfliptech.com?subject=Let%27s%20talk">Let's<br>Talk</a>
+  </div>
 </header>
 <main>
-<section class="hero">
-  <p class="hero-kicker">Matt McGlothlin</p>
-  <h1>Design is <em>Everything</em></h1>
-  <p class="hero-sub">great design is invisible</p>
-  <a class="btn" href="mailto:mattmcg@bitfliptech.com?subject=Request%20for%20recent%20work">Request recent work</a>
-</section>
-<section class="work" id="work">
-  <h2 class="section-title">Selected Work</h2>
-  <div class="grid">
-<a class="tile" href="honeywell-transmission-risk-air-monitor/"><div class="tile-art tile-photo"><img src="images/tram/tile.jpg" alt="Transmission Risk Air Monitor" loading="lazy"></div>
-<div class="tile-meta"><h3>Transmission Risk Air Monitor</h3><p>iF Design Award 2022 · IoT · Mobile &amp; Web</p></div></a><a class="tile" href="safety-suite-transformation/"><div class="tile-art" style="background:linear-gradient(135deg,#0a3d62,#1e6091)"><span>SST</span></div>
-<div class="tile-meta"><h3>Safety Suite Transformation</h3><p>Enterprise UX · AI · Design Systems</p></div></a><a class="tile" href="integrated-lifecare-platform/"><div class="tile-art" style="background:linear-gradient(135deg,#0e6655,#45b39d)"><span>ILP</span></div>
-<div class="tile-meta"><h3>Integrated Lifecare Platform</h3><p>Mobile-First · Clinical Workflows</p></div></a><a class="tile" href="topbid-design-system/"><div class="tile-art" style="background:linear-gradient(135deg,#6c3483,#a569bd)"><span>TDS</span></div>
-<div class="tile-meta"><h3>TopBid Design System</h3><p>Design Systems · Process</p></div></a><a class="tile" href="top-bid-mobile-app/"><div class="tile-art" style="background:linear-gradient(135deg,#b9770e,#f5b041)"><span>TBM</span></div>
-<div class="tile-meta"><h3>Top Bid Mobile App</h3><p>Mobile · UI Design · Specs</p></div></a><a class="tile" href="reputation-management-mobile-app-reprevivecom/"><div class="tile-art" style="background:linear-gradient(135deg,#943126,#e74c3c)"><span>RMM</span></div>
-<div class="tile-meta"><h3>Reputation Management Mobile App</h3><p>iOS · Startup · Founder</p></div></a><a class="tile" href="eda-responsive-redesign/"><div class="tile-art" style="background:linear-gradient(135deg,#1a5276,#5499c7)"><span>ERR</span></div>
-<div class="tile-meta"><h3>EDA Responsive Redesign</h3><p>Responsive Web · Redesign</p></div></a><a class="tile" href="ecomdash-onboarding-design-system/"><div class="tile-art" style="background:linear-gradient(135deg,#196f3d,#58d68d)"><span>E–O</span></div>
-<div class="tile-meta"><h3>Ecomdash – Onboarding &amp; Design System</h3><p>SaaS · Onboarding · Design Systems</p></div></a><div class="tile tile-static"><div class="tile-art" style="background:linear-gradient(135deg,#283747,#5d6d7e)"><span>FDW</span></div>
-<div class="tile-meta"><h3>Financial Dashboard Wireframes</h3><p>Fintech · Wireframes</p></div></div><div class="tile tile-static"><div class="tile-art" style="background:linear-gradient(135deg,#7d6608,#f4d03f)"><span>SSE</span></div>
-<div class="tile-meta"><h3>Support Site Experience</h3><p>Web · Support UX</p></div></div><div class="tile tile-static"><div class="tile-art" style="background:linear-gradient(135deg,#78281f,#cd6155)"><span>RMW</span></div>
-<div class="tile-meta"><h3>Reputation Management Web Application</h3><p>SaaS · Web App</p></div></div><div class="tile tile-static"><div class="tile-art" style="background:linear-gradient(135deg,#4a235a,#af7ac5)"><span>RB</span></div>
-<div class="tile-meta"><h3>RepRevive Brand</h3><p>Branding · Identity</p></div></div><div class="tile tile-static"><div class="tile-art" style="background:linear-gradient(135deg,#154360,#5dade2)"><span>BTR</span></div>
-<div class="tile-meta"><h3>Bitflip Tech Redesign</h3><p>Web · Redesign</p></div></div><div class="tile tile-static"><div class="tile-art" style="background:linear-gradient(135deg,#0e6251,#48c9b0)"><span>LUC</span></div>
-<div class="tile-meta"><h3>LinkedIn UI Case Study</h3><p>UI · Case Study</p></div></div><div class="tile tile-static"><div class="tile-art" style="background:linear-gradient(135deg,#6e2c00,#eb984e)"><span>C</span></div>
-<div class="tile-meta"><h3>ChangeApp.io</h3><p>Mobile · Product</p></div></div><div class="tile tile-static"><div class="tile-art" style="background:linear-gradient(135deg,#145a32,#52be80)"><span>DCF</span></div>
-<div class="tile-meta"><h3>Davidson College Food &amp; Sustainability Planning</h3><p>Research · Planning</p></div></div>
-  </div>
-</section>
+<div class="bento" id="work">
+  <section class="card hero-card span-6">
+    <div>
+      <p class="hero-kicker">Matt McGlothlin · Designer &amp; Design Systems Leader · Charlotte, NC</p>
+      <h1>Design is<br><span class="accent">Everything</span>.</h1>
+    </div>
+    <div class="hero-side">
+      <p class="tagline">great design is invisible</p>
+      <p>I help enterprises and startups ship engaging products through design systems, UX, and AI — from Fortune 100 scale to founder scrappy.</p>
+      <a class="btn" href="mailto:mattmcg@bitfliptech.com?subject=Request%20for%20recent%20work">Request recent work</a>
+    </div>
+  </section>
+
+  <a class="card featured-card span-6" href="honeywell-transmission-risk-air-monitor/">
+    <div>
+      <h2>Transmission Risk Air Monitor</h2>
+      <div class="chips"><span class="chip">iF Design Award 2022</span><span class="chip">IoT</span><span class="chip">Mobile &amp; Web</span></div>
+      <p>From data to decisions: designing for breathable air. An award-winning air quality experience that helps schools and public spaces turn complex algorithmic risk assessments into clear, actionable guidance.</p>
+      <p class="featured-cta">View case study</p>
+    </div>
+    <img src="images/tram/tile.jpg" alt="Transmission Risk Air Monitor">
+  </a>
+
+  <p class="section-label">Selected Work</p>
+<a class="card project-card span-2" href="safety-suite-transformation/" style="background:var(--lemon)"><div class="initials">SST</div><div class="meta"><h3>Safety Suite Transformation</h3><p class="tag">Enterprise UX · AI · Design Systems</p></div></a><a class="card project-card span-2" href="integrated-lifecare-platform/" style="background:var(--peach)"><div class="initials">ILP</div><div class="meta"><h3>Integrated Lifecare Platform</h3><p class="tag">Mobile-First · Clinical Workflows</p></div></a><a class="card project-card span-2" href="topbid-design-system/" style="background:var(--pink)"><div class="initials">TDS</div><div class="meta"><h3>TopBid Design System</h3><p class="tag">Design Systems · Process</p></div></a><a class="card project-card span-2" href="top-bid-mobile-app/" style="background:var(--mint)"><div class="initials">TBM</div><div class="meta"><h3>Top Bid Mobile App</h3><p class="tag">Mobile · UI Design · Specs</p></div></a><a class="card project-card span-2" href="reputation-management-mobile-app-reprevivecom/" style="background:var(--lavender)"><div class="initials">RMM</div><div class="meta"><h3>Reputation Management Mobile App</h3><p class="tag">iOS · Startup · Founder</p></div></a><a class="card project-card span-2" href="eda-responsive-redesign/" style="background:var(--lemon)"><div class="initials">ERR</div><div class="meta"><h3>EDA Responsive Redesign</h3><p class="tag">Responsive Web · Redesign</p></div></a><a class="card project-card span-2" href="ecomdash-onboarding-design-system/" style="background:var(--peach)"><div class="initials">E–O</div><div class="meta"><h3>Ecomdash – Onboarding &amp; Design System</h3><p class="tag">SaaS · Onboarding · Design Systems</p></div></a><div class="card project-card span-2" style="background:var(--pink)"><div class="initials">FDW</div><div class="meta"><h3>Financial Dashboard Wireframes</h3><p class="tag">Fintech · Wireframes</p></div></div><div class="card project-card span-2" style="background:var(--mint)"><div class="initials">SSE</div><div class="meta"><h3>Support Site Experience</h3><p class="tag">Web · Support UX</p></div></div><div class="card project-card span-2" style="background:var(--lavender)"><div class="initials">RMW</div><div class="meta"><h3>Reputation Management Web Application</h3><p class="tag">SaaS · Web App</p></div></div><div class="card project-card span-2" style="background:var(--lemon)"><div class="initials">RB</div><div class="meta"><h3>RepRevive Brand</h3><p class="tag">Branding · Identity</p></div></div><div class="card project-card span-2" style="background:var(--peach)"><div class="initials">BTR</div><div class="meta"><h3>Bitflip Tech Redesign</h3><p class="tag">Web · Redesign</p></div></div><div class="card project-card span-2" style="background:var(--pink)"><div class="initials">LUC</div><div class="meta"><h3>LinkedIn UI Case Study</h3><p class="tag">UI · Case Study</p></div></div><div class="card project-card span-2" style="background:var(--mint)"><div class="initials">C</div><div class="meta"><h3>ChangeApp.io</h3><p class="tag">Mobile · Product</p></div></div><div class="card project-card span-2" style="background:var(--lavender)"><div class="initials">DCF</div><div class="meta"><h3>Davidson College Food &amp; Sustainability Planning</h3><p class="tag">Research · Planning</p></div></div>
+
+  <p class="section-label">About</p>
+  <section class="card about-card span-4">
+    <h2>I'm Matt, a designer &amp; design&#8209;systems leader based in Charlotte.</h2>
+    <p>I've shipped work for Fortune 100 giants and scrappy startups alike — and founded a few companies of my own along the way. My current passion: design systems and automation that keep enterprise interfaces consistent.</p>
+    <a class="btn" href="about-1/">More about me</a>
+  </section>
+  <a class="card award-card span-2" href="honeywell-transmission-risk-air-monitor/">
+    <h2 style="text-transform:none">iF Design Award 2022</h2>
+    <div>
+      <p>Honeywell Transmission Risk Air Monitor</p>
+      <span class="arrow">→</span>
+    </div>
+  </a>
+
+  <section class="card clients-card span-2">
+    <h2 class="display">Trusted at scale</h2>
+    <ul>
+      <li>Bank of America</li>
+      <li>Honeywell</li>
+      <li>Wells Fargo</li>
+      <li>ecomdash</li>
+    </ul>
+  </section>
+  <a class="card contact-card span-2" href="mailto:mattmcg@bitfliptech.com?subject=Hello%20Matt">
+    <span class="plane">✈</span>
+    <div>
+      <h2>Have a project? Let's talk.</h2>
+      <p class="email">mattmcg@bitfliptech.com</p>
+    </div>
+  </a>
+  <a class="card top-card span-2" href="#top">
+    <h2>Back to the top</h2>
+    <span class="arrow">↑</span>
+  </a>
+</div>
 </main>
 <footer class="site-footer">
   <p class="footer-mark">design<span>MATT</span>ers</p>
